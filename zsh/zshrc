@@ -1,0 +1,18 @@
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="my"
+
+plugins=(git bundler osx rake ruby)
+
+export PATH="$PATH:$HOME/.rvm/bin:$HOME/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin"
+
+source $ZSH/oh-my-zsh.sh
+
+
+export BUNDLER_EDITOR="subl"
+export EDITOR="subl"
+
+source $HOME/.zsh_aliases
+
+# No default for next lines
